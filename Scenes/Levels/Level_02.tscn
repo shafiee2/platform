@@ -1,5 +1,6 @@
-[gd_scene load_steps=13 format=3 uid="uid://bjb3dx2x4bocm"]
+[gd_scene load_steps=14 format=3 uid="uid://bjb3dx2x4bocm"]
 
+[ext_resource type="Texture2D" uid="uid://c1q6vbc1bq88c" path="res://2ca53084-98b2-4858-8991-913ac027a1df.jpg" id="1_es7ky"]
 [ext_resource type="PackedScene" uid="uid://w7m6tehvvy3g" path="res://Scenes/Prefabs/player.tscn" id="2_lpo2y"]
 [ext_resource type="PackedScene" uid="uid://bfmh3fm2de78o" path="res://Scenes/Prefabs/Coin.tscn" id="3_nht2m"]
 [ext_resource type="Script" uid="uid://dbrlmxldbxker" path="res://Scripts/GameManager.gd" id="4_ndpt4"]
@@ -43,6 +44,11 @@ physics_layer_0/collision_layer = 1
 sources/0 = SubResource("TileSetAtlasSource_rndpx")
 
 [node name="Level_02" type="Node2D"]
+
+[node name="2Ca5308498b248588991913Ac027a1Df" type="Sprite2D" parent="."]
+position = Vector2(1017.25, 299.49997)
+scale = Vector2(1.5407547, 1.2207205)
+texture = ExtResource("1_es7ky")
 
 [node name="Player" parent="." instance=ExtResource("2_lpo2y")]
 z_index = 1
@@ -155,4 +161,3 @@ text = "x 3"
 [node name="LevelFinishDoor" parent="." instance=ExtResource("8_ombkc")]
 z_index = 1
 position = Vector2(1802, 400)
-next_scene = null
