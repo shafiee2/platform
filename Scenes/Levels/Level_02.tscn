@@ -46,8 +46,8 @@ sources/0 = SubResource("TileSetAtlasSource_rndpx")
 [node name="Level_02" type="Node2D"]
 
 [node name="2Ca5308498b248588991913Ac027a1Df" type="Sprite2D" parent="."]
-position = Vector2(1017.25, 299.49997)
-scale = Vector2(1.5407547, 1.2207205)
+position = Vector2(1017.25, 283.99994)
+scale = Vector2(1.5407547, 1.2672672)
 texture = ExtResource("1_es7ky")
 
 [node name="Player" parent="." instance=ExtResource("2_lpo2y")]
